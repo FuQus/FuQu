@@ -18,31 +18,6 @@ cout<<"masukkan angka :";
 
 void mPertama(){
     system("cls");
- cout<<"hallo saya menu pertama";
+ cout<<"hallo saya menu pertama!";
  getch ();
-}
-
-int main (){
-char pl;
-do{
-    dmenu();
-    pl = getch ();
-
-switch (pl)
-{
-    case '1':
-    mPertama();
-    break;
-
-    case '5':
-    break;
-
-    default:
-    system("cls");
-    cout<<"pilihan tidak tersedia";
-    getch ();
-    break;
-}
-} while (pl !='5');
-return 0;
 }
